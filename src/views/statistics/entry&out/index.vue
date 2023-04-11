@@ -68,7 +68,7 @@ export default {
           } else {
             obj.name = '固定出校'
           }
-          obj.max = 10
+          obj.max = 3000
           label.push(obj)
           value.push(item.num)
         });
@@ -81,7 +81,7 @@ export default {
           } else {
             obj.name = '假期返校'
           }
-          obj.max = 10
+          obj.max = 3000
           label.push(obj)
           value.push(item.num)
         });
